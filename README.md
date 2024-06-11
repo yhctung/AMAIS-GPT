@@ -1,6 +1,6 @@
 # AMAIS-GPT 
 <img align="left" src="AskMeAnything/AskMeAnything/Assets.xcassets/AppIcon.solidimagestack/Front.solidimagestacklayer/Content.imageset/ItunesArtwork@2x.png" width=100><br>
- **AMAIS-GPT** (Ask Me Anything Intelligent System - GPT) is a VisionOS app that queries the environment using pictures. 
+**AMAIS-GPT** (Ask Me Anything Intelligent System - GPT) is a VisionOS app that queries the environment using pictures. 
 
 
 [![Swift Version][swift-image]][swift-url]
@@ -39,6 +39,13 @@ Stretch goals:
 
 ## Demo
 [![Demo Video](https://img.youtube.com/vi/lSpds7mvRBo/0.jpg)](https://www.youtube.com/watch?v=lSpds7mvRBo)
+
+## Installation
+1. Download project files and open AskMeAnything folder in XCode (version >= 15.2 on Apple device with M1/M2/M3 chip).
+2. Verify XCode/app permissions for microphone and speech recognition access.
+- Check Info.plist via XCode default app permissions for “Privacy - Microphone Usage Description” and “Privacy - Speech Recognition Usage Description”. Add if not present.
+3. Replace OPENAI_API_KEY in `AlternateView.swift` with your API key.
+4. Run app in the XCode simulator or deploy and run on your Apple Vision Pro.
 
 ## References
 
